@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lpr-easy-pro"
+version = "0.1.0"
+description = "Modular YOLO + EasyOCR license-plate CLI and video annotator"
+readme = "README.md"
+authors = [{name = "Your Name"}]
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+lpr-easy = "lpr_easy.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["lpr_easy*"]

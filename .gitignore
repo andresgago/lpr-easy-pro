@@ -1,0 +1,94 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.pyd
+*.dll
+
+# Distribution / packaging
+.Python
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+.ENV/
+env.bak/
+venv.bak/
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+
+# Type checkers / linters
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.pyre/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Editor & OS junk
+.DS_Store
+Thumbs.db
+
+# IDEs
+# PyCharm
+.idea/
+# VSCode
+.vscode/
+
+# Sphinx / MkDocs
+docs/_build/
+site/
+
+# Ultralytics / YOLO outputs
+runs/
+
+# Project outputs (optional; comment out if you want to track)
+out/
+out_vis/
+out_crops/
+
+# Local env files / secrets
+*.env
+.env
+.env.*
